@@ -1,7 +1,7 @@
 async function getBaconipsum() {
   var apiString = "https://baconipsum.com/api/";
   var theNewParagraphs = document.getElementById("newParagraphs").value;
-  var newParas = document.getElementById("newPara").value
+  var newParas = document.getElementById("newFormat").value
   apiString = apiString + "?type=meat-and-filler&paras=" + theNewParagraphs;
   alert(apiString);
 
